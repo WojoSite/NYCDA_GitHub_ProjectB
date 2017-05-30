@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  margin: 0;
+  height: 100%;
+}
+/* ====== top banner ====== */
+#index-header {
+  /*display: block;*/
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid #C0C0C0;
+}
+#index-header-logobox {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.logoimage {
+  background-image: url('https://pbs.twimg.com/profile_images/786199123255058433/HfdwvZ55.jpg');
+  background-size: 100% 100%;
+}
+#index-header-menubox {
+  float: right;
+  height: 100px;
+}
+.index-header-menu {
+  padding: 20px;
+  line-height: 100px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* ====== main section ====== */
+#index-main {
+  width: 100%;
+  height: 700px;
+  /*border: 1px solid white;*/
+}
+.index-main-imagebox {
+  position: relative;
+  width: 537px;
+  height: 359px;
+  left: 50px;
+  top: 70px;
+}
+#index-mainimage {
+  float: left;
+  background-image: url('https://blog.hackerrank.com/wp-content/uploads/2014/08/Bootcamp.jpg');
+  background-size: 100% 100%;
+}
+#index-main-intro-box {
+  /*border: 1px solid white;*/
+  position: relative;
+  left: 100px;
+  top: 70px;
+  float: left;
+  width: 600px;
+  height: 400px;
+}
+.index-main-intro-content {
+  color: white;
+}
+#index-main-intro-title {
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+#index-main-intro-article > p {
+  font-size: 20px;
+}
