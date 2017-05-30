@@ -1,0 +1,106 @@
+/* ==== General ==== */
+body {
+  background-color: #F0F8FF;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+}
+
+/*===== Footer =====*/
+#footer {
+  font-size: 20px;
+  width:auto;
+  height: 5px;
+  text-align: center;
+  color: #000000;
+}
+
+/*===== Top Menu =====*/
+.topnav {
+  overflow: hidden;
+  background-color: #F0F8FF;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+
+.topnav > a {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 5% 5%;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  text-shadow: -1px 0 #7FFF00, 0 1px #7FFF00, 1px 0 #7FFF00, 0 -1px #7FFF00;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: black;
+}
+
+/* ====== Why Code? ====== */
+#life {
+  text-align: center;
+}
+
+/* ===== Page Content ===== */
+.blog_container {
+  height: 350px;
+  width: 1000px;
+  margin: 20px;
+}
+
+#blog_title,#blog_preview,#read,#date {
+  color: #5F9EA0;
+  margin: 10px;
+  padding: 10px;
+}
+
+#blog_title {
+  text-align: center;
+}
+
+#read > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* ===== Post 1 ===== */
+#blog_image_1 {
+  float: left;
+  width: 400px;
+  height: 267px;
+  background-image: url(Gallery/culture.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/*===== Post 2 ===== */
+#blog_image_2 {
+  float: left;
+  width: 350px;
+  height: 295px;
+  background-image: url(Gallery/brands.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/*===== Post 3 ===== */
+#blog_image_3 {
+  float: left;
+  width: 362px;
+  height: 312px;
+  background-image: url(Gallery/NYCDA.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: auto;
+}
