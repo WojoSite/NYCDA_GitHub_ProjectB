@@ -1,0 +1,32 @@
+form
+{
+    margin: 0 auto;
+    width: 600px;
+}
+.intro
+{
+    right: 100px;
+    padding: 0 25px;
+    font-size: 17px;
+    font-family: serif;
+}
+
+.row
+{
+    background-color: light blue;
+    font-family: Georgia;
+    color: brown;
+}
+.NYCDA
+{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    right: 1px;
+    top: 290px;
+}
+#submit_button
+{
+    font-size: 40px;
+    color: blue;
+}
