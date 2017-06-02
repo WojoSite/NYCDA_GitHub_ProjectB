@@ -1,6 +1,7 @@
 body{
   width: 70%;
   margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 #page-title > h1{
